@@ -27,11 +27,14 @@
         <img alt="Vue logo" class="logo" height="125" src="./assets/logo.svg" width="125" />
 
         <div class="wrapper">
-            <HelloWorld msg="You did it!" />
+            Polywrap test
         </div>
     </header>
 
     <main>
+        <p>
+            Example: QmWTC8Y4R8WoHSoAeKaLyJtHyH3jucXmArqrps5XZwXzLn
+        </p>
         <p>
             CID: <input @input="handleUpdate" />
         </p>
