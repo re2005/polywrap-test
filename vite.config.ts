@@ -10,6 +10,7 @@ export default defineConfig({
     resolve: {
         alias: {
             '@': fileURLToPath(new URL('./src', import.meta.url)),
+            url: 'rollup-plugin-node-polyfills/polyfills/url',
         },
     },
     build: {
